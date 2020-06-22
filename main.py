@@ -6,6 +6,10 @@ import logging
 import datetime
 import functools
 import jwt
+<<<<<<< HEAD
+=======
+
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9
 # pylint: disable=import-error
 from flask import Flask, jsonify, request, abort
 
@@ -110,5 +114,9 @@ def _get_jwt(user_data):
     return jwt.encode(payload, JWT_SECRET, algorithm='HS256')
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     APP.run(host='0.0.0.0', port=8080, debug=True)
     
+=======
+    APP.run(host='127.0.0.1', port=8080, debug=True)
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9

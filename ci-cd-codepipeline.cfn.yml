@@ -9,7 +9,11 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
+<<<<<<< HEAD
     Default: simple-jwt-api
+=======
+    Default: 
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter the EKS cluster name
@@ -17,7 +21,11 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
+<<<<<<< HEAD
     Default: FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+=======
+    Default: 
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
@@ -40,7 +48,11 @@ Parameters:
 
   GitHubUser:
     Type: String
+<<<<<<< HEAD
     Default: Saif-Alotaibe
+=======
+    Default:
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100
@@ -56,7 +68,11 @@ Parameters:
 
   KubectlRoleName:
     Type: String
+<<<<<<< HEAD
     Default: UdacityFlaskDeployCBKubectlRole
+=======
+    Default: 
+>>>>>>> 18f920026a9132b6e374668179a79cb94c25b3c9
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
